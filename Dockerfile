@@ -19,6 +19,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 ENV USER_TIMEZONE UTC
 ENV USER_LANG en
+ENV FILE_ENCODING UTF-8
 
 VOLUME ["/opt/GridVisData", "/opt/GridVisProjects"]
 ADD gridvis-service.sh /gridvis-service.sh
